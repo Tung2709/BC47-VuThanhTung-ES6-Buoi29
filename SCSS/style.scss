@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  span {
+    size: 20px;
+    font-weight: 600;
+  }
+}
+.navbar {
+  .container-fluid {
+    .navbar-collapse {
+      flex-grow: 0;
+      li {
+        a {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+main {
+  margin: 0 10px;
+  h1 {
+    padding: 30px 0;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+table {
+  width: 100%;
+  text-align: center;
+  th {
+    border: 2px solid black;
+    border-right-style: solid;
+    height: 50px;
+  }
+  td {
+    @extend th;
+  }
+}
